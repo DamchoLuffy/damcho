@@ -1,0 +1,371 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box; 
+}
+body{
+    font-family: 'Mukta', sans-serif;
+}
+
+#container{
+    color: #fff;
+    overflow-x: hidden;
+    padding: 20px;
+    background: rgb(90, 38, 90);
+}
+
+
+ header img{
+    background-image: url("assets/gradientShade (2).png");
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    left: 400px;
+    bottom: 90px;
+} 
+header ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+}
+header ul .active{
+    padding: 5px 20px;
+    border-radius: 5px;
+    background: #BD00FF;
+}
+.buttn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.buttn:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+.gradient{
+    position: absolute;
+    z-index: -1;
+}
+.title{
+    width: 400px;
+}
+.search-bar{
+    margin: 100px auto 100px auto;
+    height: 40px;
+    width: 600px;
+    background: #fff;
+    border-radius: 5px;
+    color: #888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.input{
+    height: 40px;
+    width: 400px;
+    border-style: none;
+    margin: 0px 50px 0px 50px;
+    z-index: 1;
+}
+select{
+    height: 40px;
+    padding: 5px 10px;
+    border-style: none;
+    border-left: 1px solid #ccc;
+    border-radius: 5px;
+}
+.mid-ware{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.avatars{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.avatar{
+    width: 150px;
+    height: 150px;
+    /* background: #fff; */
+    /* border-radius: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.round-avatar{
+    border-radius: 50%;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+.Round-avatar{
+    border-radius: 50%;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+}
+.avatar1{
+     display: flex;
+     justify-content: space-around;
+     padding: 20px 180px;
+}
+#icons{
+    text-align: center;
+}
+
+
+.ava{
+    border-radius: 50%;
+    width: 150px;
+}
+.para {
+    border: 2px dotted white;
+    box-shadow: 10px 10px 0px 0px white;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 35px;
+    background-color: greenyellow;
+}
+.para:hover{
+    cursor: pointer;
+    background-color:rgba(0, 0, 255, 0.304);
+    color: #000;
+    transition: 1s;
+}
+.para h4{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.para p{
+    color: black;
+    
+}
+.para button{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    border-style: none;
+    text-decoration: underline;
+}
+.para button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    transition: 1s;
+}
+
+
+#images{
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.icons{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.overlap{
+    bottom: -1131px;
+    position: absolute;
+    height: 0px;
+    width: 200px;
+    /* background: #000; */
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: 1s ease;
+    transform: scaleY(1);
+  
+}
+.card:hover > .overlap {
+    height: 50px;
+}
+.card:hover > .caption{
+    margin-top: -40px;
+}
+.caption{
+    transition: 1s ease;
+}
+
+#images i{
+    position: relative;
+    left: 120px;
+    bottom: 20px;
+    font-size: 10px;
+}
+
+.god{
+    width: 200px;
+    height: 300px;
+}
+#Dad{
+    padding: 0px 30px;
+}
+
+
+#client{
+    background-image: url("assets/immmmage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.khandu{
+    color: #000;
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.gunda img{
+    border-radius: 50%;
+    width: 50px;
+}
+#gogo{
+    display: flex;
+    justify-content:space-evenly;
+}
+.gunda{
+    background-color: #fff;
+    border: 2px solid black;
+    color: #000;
+    display: flex;
+    margin: 20px;
+    width: 500px;
+    padding: 10px;
+}
+
+.p{
+    text-align: center;
+    padding: 5px 30px;
+}
+.keta img{
+    border-radius: 50%;
+    width: 50px; 
+}
+.keta{
+    background-color: #fff;
+    border: 2px solid black;
+    color: #000;
+    display: flex;
+    margin: 20px;
+    width: 300px;
+    padding: 10px;
+}
+#ama{
+    margin: 5px;
+    display: flex;
+}
+.ama1 img{
+    border-radius: 50%;
+    width: 50px;
+}
+.ama1{
+    background-color: #fff;
+    border: 2px solid black;
+    color: #000;
+    display: flex;
+    margin: 20px;
+    width: 700px;
+    height: 80px;
+    padding: 2px; 
+}
+.p{
+    text-align: center;
+    padding: 5px 30px;
+}
+
+.ama2 img{
+    border-radius: 50%;
+    width: 50px; 
+}
+.ama2{
+    background-color: #fff;
+    border: 2px solid black;
+    color: #000;
+    display: flex;
+    margin: 20px;
+    width: 800px;
+    height: 80px;
+    padding: 2px;
+}
+
+
+#gog{
+    margin: 5px;
+    display: flex;
+}
+.kota img{
+    border-radius: 50%;
+    width: 50px;
+}
+.kota{
+    background-color: #fff;
+    border: 2px solid black;
+    color: #000;
+    display: flex;
+    margin: 20px;
+    width: 500px;
+    height: 80px;
+    padding: 10px;
+}
+
+.p{
+    text-align: center;
+    padding: 5px 30px;
+}
+.big img{
+    border-radius: 50%;
+    width: 50px; 
+}
+.big{
+    background-color: #fff;
+    border: 2px solid black;
+    color: #000;
+    display: flex;
+    margin: 20px;
+    width: 500px;
+    height: 80px;
+    padding: 10px;
+}
+
+#card{
+    background-color: black;
+    padding: 20px 0px;
+}
+
+
+@media only screen and (max-width: 444px) {
+     container{
+        width: 100%;
+  }
+  #gradient{
+    display: none;
+  }
+}
+.toggle{
+    background-color: rgb(0, 0, 0) !important;
+    color: #ffffff;
+}
+  
