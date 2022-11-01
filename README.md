@@ -1,1 +1,1 @@
-# damcho
+# Photo Gallery Project
